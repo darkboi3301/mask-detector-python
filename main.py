@@ -18,7 +18,8 @@ print ('''INSTRUCTIONS:
 1.change the threshold value based on your light available (default 100)
 2.remove the playsound function if u dont want the sound to be played
 3 press escape in camera output to exit properly
-4.be safe and enjoy''')
+4.be safe and enjoy
+done by eeshwar''')
 ent = "1"
 ent = input("press enter to start")
 print('''MASK DETECTOR WILL START in ''')
