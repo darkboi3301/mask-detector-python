@@ -3,23 +3,6 @@ print("the path was",os.path.dirname(os.path.realpath(__file__)))
 path = (os.path.dirname(os.path.realpath(__file__)))
 os.chdir(path)
 print ("the directory is now changed to",path)
-print ('''
-   __  ______   ______ __  
-  /  |/  / _ | / __/ //_/  
- / /|_/ / __ |_\ \/ ,<     
-/_/  /_/_/ |_/___/_/|_|    
-
-   ___  _____________________________  ___ 
-  / _ \/ __/_  __/ __/ ___/_  __/ __ \/ _ )
- / // / _/  / / / _// /__  / / / /_/ / , _/
-/____/___/ /_/ /___/\___/ /_/  \____/_/|_| -ELITE-3
-                                            ''')
-print ('''INSTRUCTIONS: 
-1.change the threshold value based on your light available (default 100)
-2.remove the playsound function if u dont want the sound to be played
-3 press escape in camera output to exit properly
-4.be safe and enjoy
-done by eeshwar''')
 ent = "1"
 ent = input("press enter to start")
 print('''MASK DETECTOR WILL START in ''')
